@@ -1,23 +1,24 @@
 # User Management API
+
 A simple RESTful API built with Node.js, Express.js, and MongoDB for managing users with CRUD operations and JWT-based authentication.
 
 ## Overview
 This API provides endpoints for user signup, login, and CRUD operations (Create, Read, Update, Delete) on user data. Protected routes require a JWT token obtained from signup or login.
 
 ## Features
-- User Authentication**: JWT-based signup and login.
-- CRUD Operations**: Create, retrieve, update, and delete users.
-- Secure Routes**: Protected endpoints using JWT middleware.
-- Error Handling**: Basic error responses for invalid requests.
+- **User Authentication**: JWT-based signup and login.
+- **CRUD Operations**: Create, retrieve, update, and delete users.
+- **Secure Routes**: Protected endpoints using JWT middleware.
+- **Error Handling**: Basic error responses for invalid requests.
 
 ## Prerequisites
-- Node.js: Version 20.x or later (tested with v20.16.0).
-- MongoDB: Local instance or cloud (e.g., MongoDB Atlas).
-- Git: For version control.
-- Postman: For testing API endpoints.
+- **Node.js**: Version 20.x or later (tested with v20.16.0).
+- **MongoDB**: Local instance or cloud (e.g., MongoDB Atlas).
+- **Git**: For version control.
+- **Postman**: For testing API endpoints.
 
 ## Project Structure
-
+```
 user-management-api/
 ├── config/
 │   └── db.js              # MongoDB connection setup
@@ -35,12 +36,12 @@ user-management-api/
 ├── .env                   # Environment variables
 ├── package.json           # Dependencies and scripts
 └── server.js              # Main server file
-
+```
 
 ## Setup Instructions
 
 ### 1. Clone the Repository
-```
+```bash
 git clone https://github.com/<your-username>/<your-repository>.git
 cd user-management-api
 ```
@@ -240,5 +241,3 @@ MIT License
    git commit -m "Add README with setup instructions"
    git push
    ```
-
-This `README.md` provides clear, concise instructions for anyone setting up and testing your API, including endpoint details for Postman. Let me know if you’d like to adjust anything!
